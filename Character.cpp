@@ -7,6 +7,8 @@ Character::Character() {
     atk = 2;
     exp = 0;
     level =1;
+    //item = new Item();
+    //arrItems=;
 }
 
 void Character::initialize(string name){
@@ -21,9 +23,19 @@ void Character::initialize(string name){
 string Character::toStringCharacter(){
     string string1;
     string1 = "Name: "+name+"\n"+"HP: "+ to_string(HP)+"/"+ to_string(maxHP)+"\n"
-    +"Atk: "+ to_string(atk)+"\n"+ "Exp: "+ to_string(exp)+"\n" +"Level "+ to_string(level);
+    +"Atk: "+ to_string(atk)+"\n"+ "Exp: "+ to_string(exp)+"\n" +"Level "+ to_string(level)+"\n"+
+    "Inventory: " + "\n"+to_string(arrItems[0].getAtk())
+                         + "\n"+to_string(arrItems[1].getAtk())
+                                + "\n"+to_string(arrItems[2].getAtk());
 
     return string1;
+};
+
+void Character::gainExp(int exp){
+    this->exp = this->exp+exp;
+    //cout<<"This exp: "<< this->exp;
+    levelUp();
+
 };
 
 void Character::levelUp(){
@@ -35,6 +47,25 @@ void Character::levelUp(){
         atk = atk+1;
     }
 }
+
+void Character::receiveItem(Item item){
+    int worst_id=0;
+
+    for (int i = 0; i < 2; i++) {
+        if(arrItems[worst_id].getAtk()>arrItems[i+1].getAtk()){
+            worst_id=i+1;
+        }
+    }
+    if (arrItems[worst_id].getAtk()>item.getAtk()){
+        cout<<"Item was not replaced";
+        return;
+    }
+    arrItems[worst_id] = item;
+    //cout<<"";
+    cout<<"Item WAS replaced";
+
+}
+
 
 int Character::getExp() const {
     return exp;

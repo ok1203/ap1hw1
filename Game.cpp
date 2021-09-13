@@ -37,11 +37,14 @@ void Game::startMenu(){
         switch (option) {
             case 0:
                 break;
-            case 1:
-                //character.setExp()
+            case 1: {
+                Item item("Wooden Sword", 2);
+                character.gainExp(15);
+                character.receiveItem(item);
                 break;
+            }
             case 2: {
-                cout<<character.toStringCharacter();
+                cout<<character.toStringCharacter()<<endl;
                 break;
             }
             default:

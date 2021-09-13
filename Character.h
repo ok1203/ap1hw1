@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 using namespace std;
+#include "Item.h"
 
 class Character {
 public:
@@ -10,10 +11,12 @@ public:
     void initialize(string name);
     string toStringCharacter();
     void levelUp();
+    void gainExp(int exp);
 
     int getExp() const;
 
     void setExp(int exp);
+    void receiveItem(Item item);
 
 private:
     string name;
@@ -22,6 +25,7 @@ private:
     int atk;
     int exp;
     int level;
+    Item arrItems[3];
 
 };
 
