@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.cpp
+Character.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
+
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
+string
+-
+iostream
+-
+
 /Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.cpp
 Game.h
 /Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.h
@@ -13,6 +23,8 @@ Game.h
 /Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.h
 iostream
 -
+Character.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
 
 /Users/yerasylamanbek/CLionProjects/L1_IA2001/main.cpp
 Game.h

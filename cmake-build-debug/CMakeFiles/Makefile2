@@ -81,12 +81,12 @@ clean: CMakeFiles/L1_IA2001.dir/clean
 CMakeFiles/L1_IA2001.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target L1_IA2001"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target L1_IA2001"
 .PHONY : CMakeFiles/L1_IA2001.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/L1_IA2001.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/L1_IA2001.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/L1_IA2001.dir/rule

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.cpp">
+			<Option target="L1_IA2001"/>
+		</Unit>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h">
+			<Option target="L1_IA2001"/>
+		</Unit>
 		<Unit filename="/Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.cpp">
 			<Option target="L1_IA2001"/>
 		</Unit>

@@ -14,10 +14,43 @@ void Game::mainMenu(){
     cin>>option;
     switch(option){
         case 0: playing = false; break;
-        case 1:    break;
+        case 1: {
+            string name;
+            cout<<"Enter your name: ";
+            cin>>name;
+            character.initialize(name);
+            startMenu();
+            break;}
         default:   break;
     }
-};
+}
+void Game::startMenu(){
+
+    while (option !=0) {
+        cout << "Play Menu" << endl;
+        cout << "1. Explore" << endl;
+        cout << "2. Show stats" << endl;
+        cout << "0. Go back" << endl << endl;
+
+        cout << "Choose option: ";
+        cin >> option;
+        switch (option) {
+            case 0:
+                break;
+            case 1:
+                //character.setExp()
+                break;
+            case 2: {
+                cout<<character.toStringCharacter();
+                break;
+            }
+            default:
+                break;
+        }
+    }
+}
+
+
 
 bool Game::isPlaying() const{
     return playing;
