@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.cpp" "/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles/L1_IA2001.dir/Character.cpp.o"
+  "/Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.cpp" "/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles/L1_IA2001.dir/Enemy.cpp.o"
+  "/Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.cpp" "/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles/L1_IA2001.dir/Fight.cpp.o"
   "/Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.cpp" "/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles/L1_IA2001.dir/Game.cpp.o"
   "/Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.cpp" "/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles/L1_IA2001.dir/Item.cpp.o"
   "/Users/yerasylamanbek/CLionProjects/L1_IA2001/main.cpp" "/Users/yerasylamanbek/CLionProjects/L1_IA2001/cmake-build-debug/CMakeFiles/L1_IA2001.dir/main.cpp.o"

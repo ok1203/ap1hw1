@@ -5,8 +5,19 @@ CMakeFiles/L1_IA2001.dir/Character.cpp.o: \
  ../Character.cpp \
  ../Character.h \
  ../Item.h
+CMakeFiles/L1_IA2001.dir/Enemy.cpp.o: \
+ ../Enemy.cpp \
+ ../Enemy.h
+CMakeFiles/L1_IA2001.dir/Fight.cpp.o: \
+ ../Character.h \
+ ../Enemy.h \
+ ../Fight.cpp \
+ ../Fight.h \
+ ../Item.h
 CMakeFiles/L1_IA2001.dir/Game.cpp.o: \
  ../Character.h \
+ ../Enemy.h \
+ ../Fight.h \
  ../Game.cpp \
  ../Game.h \
  ../Item.h
@@ -15,6 +26,8 @@ CMakeFiles/L1_IA2001.dir/Item.cpp.o: \
  ../Item.h
 CMakeFiles/L1_IA2001.dir/main.cpp.o: \
  ../Character.h \
+ ../Enemy.h \
+ ../Fight.h \
  ../Game.h \
  ../Item.h \
  ../main.cpp

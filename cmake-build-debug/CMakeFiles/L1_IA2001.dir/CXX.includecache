@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.cpp
-Character.h
-/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
-
 /Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
 string
 -
@@ -18,11 +14,41 @@ iostream
 Item.h
 /Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
 
-/Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.cpp
-Item.h
-/Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.cpp
+Enemy.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.h
+
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.h
+
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.cpp
+Fight.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.h
+
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.h
+Character.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
+Enemy.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.h
+iostream
+-
+
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.cpp
+Game.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.h
+
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.h
+iostream
+-
+Character.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
+Fight.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.h
 
 /Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
 string
 -
+
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/main.cpp
+Game.h
+/Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.h
 

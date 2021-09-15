@@ -5,8 +5,19 @@ CMakeFiles/L1_IA2001.dir/Character.cpp.o
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.cpp
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
+CMakeFiles/L1_IA2001.dir/Enemy.cpp.o
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.cpp
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.h
+CMakeFiles/L1_IA2001.dir/Fight.cpp.o
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.h
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.cpp
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.h
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
 CMakeFiles/L1_IA2001.dir/Game.cpp.o
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.h
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.h
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.cpp
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.h
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
@@ -15,6 +26,8 @@ CMakeFiles/L1_IA2001.dir/Item.cpp.o
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
 CMakeFiles/L1_IA2001.dir/main.cpp.o
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Character.h
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Enemy.h
+ /Users/yerasylamanbek/CLionProjects/L1_IA2001/Fight.h
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Game.h
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/Item.h
  /Users/yerasylamanbek/CLionProjects/L1_IA2001/main.cpp

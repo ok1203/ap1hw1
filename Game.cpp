@@ -1,5 +1,5 @@
 #include "Game.h"
-
+//only cpp
 Game::Game(){
     option = 0;
     playing = true;
@@ -38,7 +38,11 @@ void Game::startMenu(){
             case 0:
                 break;
             case 1: {
-                Item item("Wooden Sword", 2);
+                //trigger fight event
+                Fight fight;
+                fight.fightEventStart(character);
+
+                Item item("Wooden Sword", 1);
                 character.gainExp(15);
                 character.receiveItem(item);
                 break;
@@ -47,8 +51,12 @@ void Game::startMenu(){
                 cout<<character.toStringCharacter()<<endl;
                 break;
             }
-            default:
+            default: {
+                Item item("Secret Sword", 10);
+                character.gainExp(15);
+                character.receiveItem(item);
                 break;
+            }
         }
     }
 }

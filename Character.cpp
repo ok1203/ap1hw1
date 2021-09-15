@@ -22,13 +22,22 @@ void Character::initialize(string name){
 
 string Character::toStringCharacter(){
     string string1;
-    string1 = "Name: "+name+"\n"+"HP: "+ to_string(HP)+"/"+ to_string(maxHP)+"\n"
-    +"Atk: "+ to_string(atk)+"\n"+ "Exp: "+ to_string(exp)+"\n" +"Level "+ to_string(level)+"\n"+
-    "Inventory: " + "\n"+to_string(arrItems[0].getAtk())
-                         + "\n"+to_string(arrItems[1].getAtk())
-                                + "\n"+to_string(arrItems[2].getAtk());
 
-    return string1;
+
+    string1 = "Name: "+name+"\n"+"HP: "+ to_string(HP)+"/"+ to_string(maxHP)+"\n"
+    +"Atk: "+ to_string(atk)+"\n"+ "Exp: "+ to_string(exp)+"\n" +"Level "+ to_string(level)+"\n";
+
+
+    string string2;
+    string2 = "Inventory: \n";
+    for (int i = 0; i < 3; i++) {
+        if (arrItems[i].getAtk()!=0) {
+            string2 += arrItems[i].getName() + " atk:" + to_string(arrItems[i].getAtk()) + "\n";
+        }
+    }
+    //If item is not in inventory, do not display it.
+
+    return (string1+string2);
 };
 
 void Character::gainExp(int exp){
@@ -57,7 +66,7 @@ void Character::receiveItem(Item item){
         }
     }
     if (arrItems[worst_id].getAtk()>item.getAtk()){
-        cout<<"Item was not replaced";
+        //cout<<"Item was not replaced";
         return;
     }
     arrItems[worst_id] = item;

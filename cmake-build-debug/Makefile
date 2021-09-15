@@ -153,6 +153,54 @@ Character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/Character.cpp.s
 .PHONY : Character.cpp.s
 
+Enemy.o: Enemy.cpp.o
+.PHONY : Enemy.o
+
+# target to build an object file
+Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/Enemy.cpp.o
+.PHONY : Enemy.cpp.o
+
+Enemy.i: Enemy.cpp.i
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
+Fight.o: Fight.cpp.o
+.PHONY : Fight.o
+
+# target to build an object file
+Fight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/Fight.cpp.o
+.PHONY : Fight.cpp.o
+
+Fight.i: Fight.cpp.i
+.PHONY : Fight.i
+
+# target to preprocess a source file
+Fight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/Fight.cpp.i
+.PHONY : Fight.cpp.i
+
+Fight.s: Fight.cpp.s
+.PHONY : Fight.s
+
+# target to generate assembly for a file
+Fight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_IA2001.dir/build.make CMakeFiles/L1_IA2001.dir/Fight.cpp.s
+.PHONY : Fight.cpp.s
+
 Game.o: Game.cpp.o
 .PHONY : Game.o
 
@@ -237,6 +285,12 @@ help:
 	@echo "... Character.o"
 	@echo "... Character.i"
 	@echo "... Character.s"
+	@echo "... Enemy.o"
+	@echo "... Enemy.i"
+	@echo "... Enemy.s"
+	@echo "... Fight.o"
+	@echo "... Fight.i"
+	@echo "... Fight.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
