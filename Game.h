@@ -6,6 +6,8 @@ using namespace std;
 #define L1_IA2001_GAME_H
 
 
+
+
 class Game {
 public:
     //Constructor

@@ -1,5 +1,7 @@
 #include "Fight.h"
 
+extern int countOption;
+
 Fight::Fight() {}
 
 void Fight::fightEventStart(Character character){
@@ -10,7 +12,7 @@ void Fight::fightEventStart(Character character){
     cout<<"Chose:"<<endl;
     cout<<"0: Retreat"<<endl;
     cout<<"1: Fight"<<endl;
-    cin>>option;
+    cin>>option; ++countOption;
     switch(option){
         case 0: return; break;
         case 1: ; break;
